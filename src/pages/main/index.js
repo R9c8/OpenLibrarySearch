@@ -3,7 +3,7 @@ import React from 'react';
 import './styles/index.css';
 
 import { Logo } from './atoms/logo';
-import { SearchInput } from './atoms/search-input';
+import { Search } from './organisms/search';
 
 export const MainPage = () => (
     <div className="container">
@@ -11,7 +11,7 @@ export const MainPage = () => (
             <div className="logo-block">
                 <Logo />
             </div>
-            <SearchInput />
+            <Search />
             <div className="logo-block" />
         </nav>
     </div>
