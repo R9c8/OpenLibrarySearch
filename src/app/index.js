@@ -5,13 +5,14 @@ import './styles/vars.css';
 import './styles/normalize.css';
 import './styles/index.css';
 
-class App extends Component {
+import { MainPage } from '../pages/main';
+
+export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <MainPage />
       </div>
     );
   }
-}
-
-export default App;
+};

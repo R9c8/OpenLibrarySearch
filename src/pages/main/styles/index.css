@@ -1,0 +1,15 @@
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo-block {
+  width: 40px;
+}
